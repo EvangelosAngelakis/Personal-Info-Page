@@ -1,3 +1,9 @@
+.BackGroundColor {
+    background-color: rgb(208, 170, 243);
+}
+.bold, .p0{
+    font-weight: bold;
+}
 body {
     text-align: center;
     background-color: rgb(166, 233, 227);

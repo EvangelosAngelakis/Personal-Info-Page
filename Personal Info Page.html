@@ -7,15 +7,15 @@
 <br>
 <h1><p class="q0">👋 Welcome to my Webpage 👋</p></h1>
     <h2><p class="q00">Please Enter details below to subscribe.</p></h2><br>
-<form>
+<form action="display.html"method="get">
     <br>
-    <label for="a1">Title:</label>
-    <select name="Title" id="a1">
-        <option value=""></option>
-        <option value="Mr">Mr</option>
-        <option value="Mrs">Mrs</option>
-        <option value="Ms">Ms</option>
-        <option value="Other">Other</option>
+    <select>
+        <option selected disabled>Select Option</option>
+        <option>Mr</option>
+        <option>Mrs</option>
+        <option>Miss</option>
+        <option>Master</option>
+        <option>Prefer not to say</option>
     </select>
     <br>
     <br>
@@ -24,7 +24,7 @@
     <input type="text">
     <br>
         <br>
-    <br><p class="p1">Enter Date of Birth</p>
+    <br><p class="q1">Enter Date of Birth</p>
     <input type="date">
     <br>
     <br>
@@ -37,18 +37,32 @@
     <input type="file">
     <br>
     <br>
-    <br><p class="p1">Enter Date of Application</p>
+    <br><p class="q1">Enter Date of Application</p>
     <input type="date">
     <br>
     <br>
     <br>
     <br>
-    <input type="submit">
+    <input type="submit" value="submit">
     <br>
     <br>
     <br>
-    <input type="reset">
+    <br><p class="p1">Reset Application</p>
+    <input type="reset" value="reset">
+    <script src="Personal Info Page.js"></script>
 </form>
+<br>
+<br>
+<br>
+<button onclick="toggleBold()">Toggle Bold Text on/off</button>
+<br>
+<br>
+<br>
+<br>
+<button onclick="toggleBackgroundColor()">Change Background Color</button>
+<br>
+<br>
+<br>
 <br>
 </body>
 </html>
