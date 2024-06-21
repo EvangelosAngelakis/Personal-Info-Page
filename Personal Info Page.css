@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 .BackGroundColor {
     background-color: rgb(208, 170, 243);
 }
