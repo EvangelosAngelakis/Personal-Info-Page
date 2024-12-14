@@ -6,53 +6,47 @@
 <body>
    <br>
 <h1><p class="q0">👋 Welcome to my Webpage 👋</p></h1>
-    <h2><p class="q00">Please Enter details below to subscribe.</p></h2><br>
 <form action="display.html"method="get">
-    <br>
-     <p class="q1">Enter Title</p>
-    <select>
-        <option selected disabled>Select Option</option>
-        <option>Mr</option>
-        <option>Mrs</option>
-        <option>Miss</option>
-        <option>Master</option>
-        <option>Prefer not to say</option>
-    </select>
-    <br>
-    <br>
-      <br>
-    <p class="q2">Enter Full Name</p>
-    <input type="text">
-    <br>
-        <br>
-    <br><p class="q1">Enter Date of Birth</p>
-    <input type="date">
-    <br>
-    <br>
-        <br>
-    <p class="q3">Enter your E-mail Address</p>
-    <input type="email">
-    <br>
-    <br>
-    <p class="q4">Upload Document</p>
-    <input type="file">
-    <br>
-    <br>
-    <br><p class="q1">Enter Date of Application</p>
-    <input type="date">
-    <br>
-    <br>
-    <br>
-    <br>
+    <br> 
+    <fieldset>
+        <legend class="q00">Please Enter details below to subscribe.</legend>
+        <br> <br> <br>
+        <label class="q1" for="title">Enter Title:</label>
+        <select>
+            <option selected disabled></option>
+            <option>Mr</option>
+            <option>Mrs</option>
+            <option>Miss</option>
+            <option>Master</option>
+            <option>Prefer not to say</option>
+        </select>
+        <br> <br> <br> <br>
+    <label class="q1" for="name">Enter Full Name:</label>
+    <input id="name" type="text">
+    <br> <br> <br> <br> <br>
+    <label class="q2" for="date">Enter Date of Birth:</label>
+    <input id="name" type="date">
+    <br> <br> <br> <br> <br>
+    <label class="q3" for="email">Enter your E-mail Address:</label>
+    <input id="name" type="email">
+    <br> <br> <br> <br> <br>
+    <label class="q3" for="file">Upload Document:</label>
+    <input id="name" type="file">
+    <br> <br> <br> <br> <br>
+    <label class="q3" for="date">Enter Date of Application:</label>
+    <input id="name" type="date">
+    <br> <br> <br> <br> <br>
     <input type="submit" value="submit">
-    <br>
-    <br>
-    <br>
-    <br><p class="p1">Reset Application</p>
+    <br> <br> <br> <br> <br>
+    <label class="q3" for="reset">Press to reset:</label>
+    <input id="name" type="reset">
+    <br> <br> <br> <br> <br>
+    <p class="p1">Press to reset</p>
     <input type="reset" value="reset">
     <script src="Personal Info Page.js"></script>
+</fieldset>
 </form>
-<div class = "container">
+    <div class = "container">
     <br>
     <br>
     <br>
@@ -62,6 +56,11 @@
     <button onclick="toggleBackgroundColor()">Change Background Color</button>
     <br>
     </div>
+<form>
+    <br>
+    <label for="name">Name:</label>
+    <input id="name" type="text">
+</form>
 <br>
 <br>
 <br>
