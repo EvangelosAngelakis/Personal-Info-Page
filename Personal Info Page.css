@@ -4,8 +4,8 @@
     align-items: flex-end;
     justify-content: space-between;
 }
-.BackGroundColor {
-    background-color: rgb(208, 170, 243);
+.BackGround {
+    background-image: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95c3a34f9.png);
 }
 .bold, .p0{
     font-weight: bold;
@@ -32,4 +32,8 @@ body {
 }
 .q4 {
     color: rgb(77, 3, 146);
+}
+button {
+    border:solid black;
+    border-radius: 10px;
 }

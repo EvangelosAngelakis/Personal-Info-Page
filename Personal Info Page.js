@@ -3,8 +3,8 @@ const el =
 document.querySelector("body");
 el.classList.toggle("bold");
 }
-function toggleBackgroundColor() {
+function toggleBackground() {
     const el = 
     document.querySelector("body");
-    el.classList.toggle("BackGroundColor");
+    el.classList.toggle("BackGround");
 }
